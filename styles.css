@@ -1,0 +1,320 @@
+:root {
+    --escuro--: #131f2a;
+    --escuro2--: #123a41;
+    --escuro3--: #12545f;
+    --escuro4--: #148184;
+    --escuro5--: #1ab3ae;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+    background: rgb(26,34,45);
+    background: linear-gradient(90deg, rgba(26,34,45,1) 0%, rgba(57,90,127,1) 50%, rgba(34,61,87,1) 100%);
+    background-image: url(./fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background: rgba( 255, 255, 255, 0 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 40% !important;
+    min-width: 300px;
+}
+
+.topo {
+    padding: 30px 20px 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topo h3 {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.topo > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.topo > div h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #93a9d4;
+    margin-left: 10px;
+}
+
+.topo > div > i {
+    font-weight: 600;
+    color: #93a9d4;
+    font-size: 2rem;
+}
+
+.bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
+    line-height: 0 !important;
+    vertical-align: 0 !important;
+}
+
+.imagem-stats {
+    width: 500px;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 80%;
+    min-width: 50px;
+    border-top: 10px solid #1ab3ae;
+    border-left: 10px solid #1ab3ae;
+    border-bottom: 10px solid #1ab3ae;
+    background: #1ab3ae; 
+    box-shadow: 0 0 50px #1ab3ae;
+
+    border-right: 10px solid #000000;
+}
+
+.stats-1 {
+    padding: 30px 20px 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.xp {
+    background-color: rgb(18, 84, 95, 0.4);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.xp span {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--escuro5--);
+}
+
+.xp h6:first-child {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.xp h6:last-child {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.moeda1 {
+    margin-top: 10px;
+    background-color: rgb(18, 84, 95, 0.4);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.moeda1 h6 {
+    padding-top: 3px;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.moeda1 i{
+    font-size: 1.3rem;
+}
+
+.moeda1 i:first-child {
+    color: #ffcb4c;
+    text-shadow: 0 0 5px rgb(87, 61, 0),
+                 0 0 10px rgb(255, 0, 0), 
+                 0 0 20px yellow, 
+                 0 0 30px yellow, 
+                 0 0 40px yellow, 
+                 0 0 55px yellow, 
+                 0 0 70px yellow;
+}
+
+.moeda1 i:last-child {
+    color: #48eb7b;
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 20px green, 
+                 0 0 30px green, 
+                 0 0 40px green, 
+                 0 0 55px green, 
+                 0 0 70px green;
+}
+
+
+
+
+
+
+.moeda2 {
+    margin-top: 10px;
+    background-color: rgb(18, 84, 95, 0.4);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.moeda2 h6 {
+    padding-top: 3px;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.moeda2 h6 {
+    padding-top: 3px;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.moeda2 i{
+    font-size: 1.3rem;
+}
+
+.moeda2 i:first-child {
+    color: #ffcb4c;
+    text-shadow: 0 0 5px rgb(87, 61, 0),
+                 0 0 10px rgb(255, 0, 0), 
+                 0 0 20px yellow, 
+                 0 0 30px yellow, 
+                 0 0 40px yellow, 
+                 0 0 55px yellow, 
+                 0 0 70px yellow;
+}
+
+.moeda2 i:last-child {
+    color: #48eb7b;
+    font-weight: bold;
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff, 
+                 0 0 20px rgb(0, 86, 0), 
+                 0 0 30px rgb(0, 86, 0), 
+                 0 0 40px rgb(0, 86, 0), 
+                 0 0 55px rgb(0, 86, 0), 
+                 0 0 70px rgb(0, 86, 0);
+}
+
+.card-body {
+    padding: 30px 20px 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.shop {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 20px;
+    width: 30%;
+    height: 120px;
+    background-color: rgb(18, 84, 95, 0.4);
+    padding: 10px 30px 10px 30px;
+    color: #fff;
+}
+
+.shop h6 {
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+
+.shop i {
+    font-size: 2.5rem;
+}
+
+.gif {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 20px;
+    width: 30%;
+    height: 120px;
+    background-color: rgb(18, 84, 95, 0.4);
+    padding: 10px 30px 10px 30px;
+    color: #fff;
+}
+
+.gif h6 {
+    font-weight: 600;
+    font-size: 0.75rem;
+}
+
+.gif i {
+    color: red;
+    font-size: 2.5rem;
+}
+
+.rank {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 30%;
+    height: 120px;
+    background-color: rgb(18, 84, 95, 0.4);
+    padding: 10px 30px 10px 30px;
+    color: #fff;
+}
+
+.rank h6 {
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.rank i {
+    color: rgb(251, 255, 0);
+    font-size: 2.5rem;
+}
